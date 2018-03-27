@@ -1,8 +1,9 @@
 # Webpack Kickstart
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://prettier.io/)
+[![gitmoji](https://img.shields.io/badge/gitmoji-%F0%9F%98%9C%F0%9F%98%8D-yellow.svg?style=flat-square)](https://gitmoji.carloscuesta.me/)
 
-A basic template for Webpack projects
+A basic template kickstarter for Webpack projects
 
 ## Getting Started
 
@@ -21,7 +22,7 @@ brew install yarn
 
 ### Installing
 
-1.  Download this repo by clicking the "Clone or download" button in the upper right, then click "Download ZIP" (or clone it with git, if you prefer).
+1.  Download this repo by clicking the "Clone or download" button in the upper right, then click "Download ZIP" (or clone it if you prefer).
 2.  Unzip the repo
 3.  `cd` into the repo in your [favorite terminal emulator](https://www.iterm2.com)
 4.  Install the dependencies:
@@ -39,7 +40,7 @@ yarn kickstart
 6.  Follow along with the prompts to generate your new project!
 
     *   If you want the easiest setup possible, select "webpack-dev-server" for your server.
-    *   If you're planning on adding something like [socket.io](https://socket.io) or [Johhn-Five](http://johnny-five.io/) to the server, use "express".
+    *   If you're planning on adding something like [socket.io](https://socket.io) or [Johnny-Five](http://johnny-five.io/) to the server, use "express".
 
 7.  To start your server:
 

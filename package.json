@@ -1,7 +1,7 @@
 {
   "name": "webpack-kickstart",
   "version": "1.0.0",
-  "description": "A basic template for Webpack projects",
+  "description": "A basic template kickstarter for Webpack projects",
   "main": "index.js",
   "repository": "github:j0hnm4r5/webpack-kickstart",
   "author": "John Mars <john@M4R5.io>",
