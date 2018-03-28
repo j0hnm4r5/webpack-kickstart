@@ -67,6 +67,11 @@ inquirer
 				});
 				delete packageJson.expressDependencies; // delete the entire expressDependencies object
 
+				packageJson.serverDependencies.forEach(dependency => {
+					delete packageJson.devDependencies[dependency]; // remove it from the devDependencies
+				});
+				delete packageJson.serverDependencies; // delete the entire serverDependencies object
+
 				console.log("Copying template files");
 				// copy the contents of the template folder
 				ncp("./.templates/webpack-dev-server/.", "./", err => {
@@ -83,6 +88,11 @@ inquirer
 
 				// for each dependency that is needed for express
 				console.log("Removing more unused dependencies");
+				packageJson.expressDependencies.forEach(dependency => {
+					delete packageJson.devDependencies[dependency]; // remove it from the devDependencies
+				});
+				delete packageJson.expressDependencies; // delete the entire expressDependencies object
+
 				packageJson.serverDependencies.forEach(dependency => {
 					delete packageJson.devDependencies[dependency]; // remove it from the devDependencies
 				});
